@@ -1,0 +1,23 @@
+.btn{
+    border: none;
+    padding: $x-small;
+    cursor: pointer;
+    background: none;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.primary-btn{
+    background: $ballblue;
+    color: $white;
+    transition: .3s;
+    &:hover{
+        background: $middleblue;
+    }
+    &:focus{
+        background: $gray;
+    }
+}
+.large-btn{
+    width: 100%;
+    margin: $small 0;
+}

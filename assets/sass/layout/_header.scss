@@ -1,0 +1,33 @@
+main{
+    background: url('../img/bg-hero.svg');
+    margin-top: 70px;
+    height: 130vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top ;
+    background-repeat: no-repeat;
+        .container{
+            padding-top: $xxxxx-large;;
+        }
+        h2{
+            font-size: $xxxxx-large;
+            font-weight: $bold;
+            padding: $small;
+        }
+        p{
+            padding: $small;
+            font-family: $open-sans;
+            line-height: $x-large;
+    }
+}
+@media (max-width: 992px){
+    main{
+        height: 100vh;
+        background-size: contain;
+        background-position: right bottom;
+    }
+    h2{
+        font-size: $xxxx-large;
+        padding: $x-small;
+    }
+}
