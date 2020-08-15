@@ -387,6 +387,7 @@ main p {
   text-align: left;
   height: auto;
   width: 100%;
+  z-index: 2;
 }
 .nav .nav-logo {
   padding: 10px;
@@ -468,6 +469,7 @@ main p {
   text-align: left;
   height: auto;
   width: 100%;
+  z-index: 2;
 }
 .nav .nav-logo {
   padding: 10px;
